@@ -1,0 +1,39 @@
+/* 
+font-weight - Negrito, porém não tem importância
+
+"em" - enfatiza o texto
+
+strong - dá importância
+
+line-height - Dá espaçamento
+
+text-align - Alinhamento de texto
+
+text-shadow - 
+
+text-indent - Indenta o texto, dá o espacinho do começo.
+
+filter - Op. -
+*/
+
+
+span {
+    /* font-weight: 500; */
+    font-weight: bold;
+    font-style: italic;
+    
+}
+strong{
+    font-weight: 100;
+}
+
+article{
+    font-style: italic;
+    color: chocolate;
+    text-align: right;
+    
+}
+p{
+    text-indent: 50px;
+}
+

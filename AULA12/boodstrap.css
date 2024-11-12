@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#botao {
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(247, 247, 255);
+    background-color: rgb(95, 187, 172);
+    border-radius: 30px;
+}

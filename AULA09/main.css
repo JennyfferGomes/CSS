@@ -1,0 +1,51 @@
+.container {
+
+    width: 800px;
+    height: 880px;
+    margin: 25px auto;
+    border: solid 1px;
+    background-color: darkgrey;
+    display: flex;
+
+}
+
+
+.c1 {
+    background-color: peru;
+    color: azure;
+    font-size: 1.5em;
+    text-align: center;
+    order: 2;
+}
+
+.c2 {
+    background-color: darkred;
+    color: azure;
+    font-size: 1.5em;
+    text-align: center;
+    order: 1;
+}
+
+.c3 {
+    background-color: burlywood;
+    color: azure;
+    font-size: 1.5em;
+    text-align: center;
+    order: 4;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: solid 1px;
+}
+
+.c4 {
+    background-color: rgb(181, 148, 105);
+    color: azure;
+    font-size: 1.5em;
+    text-align: center;
+    order: 3;
+}
+

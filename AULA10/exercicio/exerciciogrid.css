@@ -1,0 +1,73 @@
+* {
+    background-color: chocolate;
+}
+
+.container {
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: silver;
+    border: dotted 1px purple;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-areas:
+        "azulvioleta azulvioleta azulvioleta azulvioleta azulvioleta azulvioleta azulvioleta"
+        "azulvioleta azulvioleta azulvioleta azulvioleta azulvioleta azulvioleta azulvioleta"
+        "azul azul vermelho vermelho vermelho verde verde"
+        "cinza cinza cinza cinza cinza cinza cinza"
+        "cinza cinza cinza cinza cinza cinza cinza"
+        "cinza cinza cinza cinza cinza cinza cinza"
+        "cinza cinza cinza cinza cinza cinza cinza"
+        "marrom marrom marrom marrom marrom amarelo amarelo"
+        "roxo roxo roxo roxo roxo roxo roxo"
+        "roxo roxo roxo roxo roxo roxo roxo";
+}
+
+.box1 {
+    grid-area: azulvioleta;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.box2 {
+    grid-area: azul;
+    background-color: blue;
+    text-align: center;
+}
+
+.box3 {
+    grid-area: vermelho;
+    background-color: red;
+    text-align: center;
+}
+
+.box4 {
+    grid-area: verde;
+    background-color: green;
+    text-align: center;
+}
+
+.box5 {
+    grid-area: cinza;
+    background-color: grey;
+    text-align: center;
+}
+
+.box6 {
+    grid-area: marrom;
+    background-color: brown;
+    text-align: center;
+}
+
+.box7 {
+    grid-area: amarelo;
+    background-color: yellow;
+    text-align: center;
+}
+
+.box8 {
+    grid-area: roxo;
+    background-color: purple;
+    text-align: center;
+}

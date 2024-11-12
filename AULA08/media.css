@@ -1,0 +1,53 @@
+.texto {
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* media screen 
+media print 
+media landscape 
+media speech*/
+
+/*320px - */
+
+@media screen and (max-width: 320px) {
+
+    /*Enquanto a tela for menor que 320px ele terá essa instrução abaixo:*/
+    h1 {
+        color: red;
+    }
+}
+
+@media print and (max-width: 1200px) {
+
+    /*Enquanto a tela não for maior que 1200px*/
+    h2 {
+        color: blue;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 769px) {
+    h3 {
+        color: aquamarine;
+        text-align: right;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    h4 {
+        color: cornflowerblue;
+
+    }
+}
+
+/* 1025 até 1201*/
+
+@media (min-width: 1025px),
+(max-width: 1201px) {
+    h1 {
+        display: none;
+    }
+}

@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/*meu site sempre terá grid e flex, pois facilita muito!!!*/
+
+/*# pq ele está com uma id*/
+#container {
+    background-color: antiquewhite;
+    display: grid;
+    width: 800px;
+    height: 500px;
+    grid-template-columns: repeat(5, 1fr);
+    /*fr= uma fração. divisão da coluna*/
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px 10px;
+    grid-template-areas:
+        "caixa1 caixa1 caixa1"
+        "caixa2 caixa2 caixa2"
+        "caixa3 caixa3 caixa3"
+        "caixa4 caixa4 caixa4"
+        "caixa5 caixa5 caixa5"
+        "caixa6 caixa6 caixa6";
+}
+
+.caixa1 {
+    background-color: darkred;
+}
+
+.caixa2 {
+    background-color: brown;
+}
+
+.caixa3 {
+    background-color: peru;
+}
+
+.caixa4 {
+    background-color: darkgoldenrod;
+}
+
+.caixa5 {
+    background-color: darksalmon;
+}
+
+.caixa6 {
+    background-color: maroon;
+}

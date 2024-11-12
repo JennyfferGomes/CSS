@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    color: darkolivegreen;
+}
+
+p:hover{
+    color: darkgreen;
+    font-family: 'Segoe-UI', Tahoma, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+

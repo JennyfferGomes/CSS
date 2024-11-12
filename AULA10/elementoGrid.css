@@ -1,0 +1,51 @@
+.container {
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    background-color: silver;
+    border: dotted 1px purple;
+    display: grid;
+    /* Tipos de grid taple columns */
+    grid-template-columns: repeat(5, 1fr);
+    /*
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: repeat(5, 1fr 2fr) 
+    */
+    /* tipos de grid tample rows */
+    grid-template-rows: repeat(5, 1fr);
+    /* 
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-rows: repeat(5, 1fr 2fr)  
+    */
+
+    grid-template-areas:
+        "header header header header header"
+        "prop prop main main main"
+        "prop prop main main main"
+        "prop prop main main main"
+        "footer footer footer footer footer"
+    ;
+    }
+
+    .box1{
+        grid-area: header;
+        background-color: blueviolet;
+        text-align: center;
+    }
+    .box2{
+        grid-area: prop;
+        background-color: red;
+        text-align: center;
+    }
+    .box3{
+        grid-area: main;
+        background-color: green;
+        text-align: center;
+    }
+    .box4{
+        grid-area: footer;
+        background-color: blue;text-align: center;
+    }
+

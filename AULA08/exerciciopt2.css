@@ -1,0 +1,14 @@
+@media screen and (orientation: landscape) {
+    div {
+        display: flex;
+        justify-content: center;
+    }
+
+    h1 {
+        color: cadetblue;
+    }
+
+    p{
+        display: none;
+    }
+}

@@ -1,0 +1,24 @@
+div{
+    width: 250px;
+    height: 250px;
+    border: solid 1px;
+    margin: 5px;
+}
+/* a <div> já engloba tudo, então é bom usar ela */
+
+#caixa1{
+    padding: 10px;
+    border-color: brown;
+    border-style: dotted;
+    border-width: 15px;
+    box-sizing: border-box;
+}
+
+#caixa2{
+    padding: 10px;
+    border-color: rgb(71, 42, 165);
+    border-style: dotted;
+    border-width: 5px;
+    border-width: 15px;
+
+}
